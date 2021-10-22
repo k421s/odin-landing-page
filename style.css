@@ -1,0 +1,53 @@
+/* scaffolding */
+div {
+    border: 1px solid black;
+}
+
+.root-container{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header{
+    display: flex;
+    flex-direction: column;
+}
+.nav-bar{
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+}
+    .nav-left{
+        display: flex;
+    }
+
+    .nav-right{
+        display: flex;
+        gap: 15px;
+    }
+
+.slider{
+    display: flex;
+    justify-content: center;
+}
+
+    .slider-intro{
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        width: 35vw;
+    }
+
+    .slider-picture{
+        width: 35vw;
+    }
+
+    .slider-title{
+        font-size: 24px;
+    }
+
+.main-content{
+    display: flex;
+    gap: 15px;
+}
