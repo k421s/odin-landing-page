@@ -60,14 +60,32 @@ div {
 }
 
 .r-info{
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-    .r-info__item{
 
+    .r-info__title{
+        align-self: center;
+        font-weight: bold;
+        font-size: larger;
+    }
+
+    .r-info__illustrations{
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        width: 70vw;
+    }
+
+    .r-info__item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
         .ill-box{
-
+            text-align: center;
         }
         .ill-text{
-
+            text-align: center;
         }
