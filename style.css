@@ -47,7 +47,27 @@ div {
         font-size: 24px;
     }
 
+    .signup{
+        padding: 0px 8px;
+        /* TODO: figure out how to center the text into a button vertically */
+    }
+
+
 .main-content{
     display: flex;
+    flex-direction: column;
     gap: 15px;
 }
+
+.r-info{
+    
+}
+    .r-info__item{
+
+    }
+        .ill-box{
+
+        }
+        .ill-text{
+
+        }
