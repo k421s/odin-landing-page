@@ -102,6 +102,7 @@ div {
     flex: 1;
     justify-content: center;
     align-items: center;
+    background-color: lightgray;
 }
     .inspiring-quote__body{
         width: 70vw;
@@ -109,20 +110,42 @@ div {
     .inspiring-quote__attribution{
         text-align: right;
         width: 70vw;
+        font-weight: bold;
     }
 
 
 .hm{
     display: flex;
-    width: 85vw;
     justify-content: center;
+    align-items: center;
     flex: 1;
 }
+    .hm-content__wrapper{
+        display: flex;
+        width: 80vw;
+        /* TODO: play with the sizing of padding at different viewing sizes  */
+        padding: 2vh 8vw;
+        font-size: 10px;
+        background: dodgerblue;
 
-.sign-wrap{
-    display: flex;
-    align-items: center;
-}
+    }
+
+    .hm-content{
+
+        flex-grow: 2;
+
+        /* 30% width of the container (hopefully) to combat the size of the flex container appearing larger because of the length of the paragaph */
+        width: 30%;
+        word-wrap: normal;
+    }
+
+    .sign-wrap{
+        display: flex;
+        align-items: center;
+        flex-grow: 1;
+        flex-shrink: 0;
+        justify-content: center;
+    }
 
 .footer{
     display: flex;
