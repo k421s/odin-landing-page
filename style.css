@@ -99,11 +99,16 @@ div {
 .inspiring-quote{
     display: flex;
     flex-direction: column;
-    width: 70vw;
     flex: 1;
+    justify-content: center;
+    align-items: center;
 }
+    .inspiring-quote__body{
+        width: 70vw;
+    }
     .inspiring-quote__attribution{
         text-align: right;
+        width: 70vw;
     }
 
 
