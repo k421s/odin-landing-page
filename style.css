@@ -10,10 +10,11 @@ div {
     justify-content: space-between;
 }
 
-
 .header{
     display: flex;
     flex-direction: column;
+    padding-top: 1vh;
+    background-color: slategray;
 }
 .nav-bar{
     display: flex;
@@ -41,12 +42,17 @@ div {
         width: 35vw;
     }
 
+    .intro-item{
+        font-size: 10px;
+    }
+
     .slider-picture{
         width: 35vw;
     }
 
     .slider-title{
-        font-size: 24px;
+        font-size: 20px;
+        font-weight: bold;
     }
 
     .signup{
@@ -69,18 +75,21 @@ div {
     flex: 1;
     padding: 10px;
     justify-content: flex-start;
+    padding: 0.5vh 0.5vw 2vh 0.5vw;
+
 }
 
     .r-info__title{
         align-self: center;
         font-weight: bold;
         font-size: larger;
+        padding: 1vh 1vw;
     }
 
     .r-info__illustrations{
         display: flex;
         justify-content: center;
-        gap: 15px;
+        gap: 5px;
         width: 70vw;
     }
 
@@ -91,9 +100,12 @@ div {
     }
         .ill-box{
             text-align: center;
+            height: 7.5vh;
+            width: 7.5vh;
         }
         .ill-text{
             text-align: center;
+            font-size: 10px;
         }
 
 .inspiring-quote{
@@ -150,5 +162,7 @@ div {
 .footer{
     display: flex;
     justify-content: center;
+    padding-bottom: 2.5vh;
+    background-color: slategray;
 }
 
