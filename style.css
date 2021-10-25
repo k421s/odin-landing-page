@@ -6,6 +6,8 @@ div {
 .root-container{
     display: flex;
     flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
 }
 
 
@@ -56,13 +58,15 @@ div {
 .main-content{
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    flex: 1;
+
 }
 
 .r-info{
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex: 1;
 }
 
     .r-info__title{
@@ -89,3 +93,32 @@ div {
         .ill-text{
             text-align: center;
         }
+
+.inspiring-quote{
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    flex: 1;
+}
+    .inspiring-quote__attribution{
+        text-align: right;
+    }
+
+
+.hm{
+    display: flex;
+    width: 85vw;
+    justify-content: center;
+    flex: 1;
+}
+
+.sign-wrap{
+    display: flex;
+    align-items: center;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
