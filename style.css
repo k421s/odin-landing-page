@@ -180,10 +180,10 @@ body{
 .footer{
     display: flex;
     justify-content: center;
-    padding-bottom: 2.5vh;
     background-color: black;
     color: white;
     font-size: 12px;
-
+    flex: 0 0 4.5vh;
+    align-items: center;
 }
 
