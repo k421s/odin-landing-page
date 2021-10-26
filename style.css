@@ -48,14 +48,14 @@ body{
 .slider{
     display: flex;
     justify-content: center;
-    padding-top: 3vh;
-    padding-bottom: 5.5vh;
+    padding-top: 6vh;
+    padding-bottom: 7vh;
 }
 
     .slider-intro{
         display: flex;
         flex-direction: column;
-        gap: 3px;
+
         width: 35vw;
     }
 
@@ -89,7 +89,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex: 1;
+    flex: 5;
     padding: 10px;
     justify-content: flex-start;
     padding: 0.5vh 0.5vw 2vh 0.5vw;
@@ -128,7 +128,7 @@ body{
 .inspiring-quote{
     display: flex;
     flex-direction: column;
-    flex: 1;
+    flex: 5;
     justify-content: center;
     align-items: center;
     background-color: lightgray;
@@ -147,12 +147,12 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 1;
+    flex: 2;
     color: white;
 }
     .hm-content__wrapper{
         display: flex;
-        width: 80vw;
+        width: 70vw;
         /* TODO: play with the sizing of padding at different viewing sizes  */
         padding: 2vh 8vw;
         font-size: 10px;
@@ -183,7 +183,7 @@ body{
     background-color: black;
     color: white;
     font-size: 12px;
-    flex: 0 0 4.5vh;
+    flex: 0 0 6vh;
     align-items: center;
 }
 
