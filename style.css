@@ -3,6 +3,10 @@ div {
     border: 1px solid black;
 }
 
+body{
+    line-height: 1;
+}
+
 .root-container{
     display: flex;
     flex-direction: column;
@@ -14,12 +18,16 @@ div {
     display: flex;
     flex-direction: column;
     padding-top: 1vh;
-    background-color: slategray;
+    background-color: black;
+    color: white;
+    align-items: center;
 }
 .nav-bar{
     display: flex;
     gap: 15px;
     justify-content: space-between;
+    width: 70vw;
+    align-items: center;
 }
     .nav-left{
         display: flex;
@@ -29,10 +37,19 @@ div {
         display: flex;
         gap: 15px;
     }
+        .nav-item{
+            font-size: 12px;
+        }
 
+        .logo{
+            font-size: 16px;
+            font-weight: bold;
+        }
 .slider{
     display: flex;
     justify-content: center;
+    padding-top: 3vh;
+    padding-bottom: 4vh;
 }
 
     .slider-intro{
@@ -131,6 +148,7 @@ div {
     justify-content: center;
     align-items: center;
     flex: 1;
+    color: white;
 }
     .hm-content__wrapper{
         display: flex;
@@ -163,6 +181,9 @@ div {
     display: flex;
     justify-content: center;
     padding-bottom: 2.5vh;
-    background-color: slategray;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+
 }
 
