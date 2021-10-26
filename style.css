@@ -49,7 +49,7 @@ body{
     display: flex;
     justify-content: center;
     padding-top: 3vh;
-    padding-bottom: 4vh;
+    padding-bottom: 5.5vh;
 }
 
     .slider-intro{
@@ -100,7 +100,7 @@ body{
         align-self: center;
         font-weight: bold;
         font-size: larger;
-        padding: 1vh 1vw;
+        padding: 1.5vh 1vw;
     }
 
     .r-info__illustrations{
